@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "7e6ff8ae-63e9-4bb2-9ace-7580ce229f65": {
+      "ProjectGuid": "7e6ff8ae-63e9-4bb2-9ace-7580ce229f65",
+      "DisplayName": "DemoActivationTool",
+      "ColorIndex": 0
+    },
+    "9461ee4c-58de-49dc-b363-46c0705bef74": {
+      "ProjectGuid": "9461ee4c-58de-49dc-b363-46c0705bef74",
+      "DisplayName": "Demo",
+      "ColorIndex": 1
+    },
+    "1980e43f-c5e4-4a2b-95a6-1aebdc7ee2b7": {
+      "ProjectGuid": "1980e43f-c5e4-4a2b-95a6-1aebdc7ee2b7",
+      "DisplayName": "QLicense",
+      "ColorIndex": 2
+    },
+    "9f0bd6df-f288-451b-828e-6431e5441db8": {
+      "ProjectGuid": "9f0bd6df-f288-451b-828e-6431e5441db8",
+      "DisplayName": "DemoLicense",
+      "ColorIndex": 3
+    },
+    "01f6d760-d0d5-45cb-b730-afbaf298c7d1": {
+      "ProjectGuid": "01f6d760-d0d5-45cb-b730-afbaf298c7d1",
+      "DisplayName": "DemoWinFormApp",
+      "ColorIndex": 4
+    },
+    "ddf06eac-02df-4bda-a883-98b856bc1765": {
+      "ProjectGuid": "ddf06eac-02df-4bda-a883-98b856bc1765",
+      "DisplayName": "ActivationControls4Win",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

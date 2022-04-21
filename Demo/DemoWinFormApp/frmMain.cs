@@ -1,9 +1,9 @@
-﻿using System;
-using System.IO;
-using System.Windows.Forms;
-using System.Reflection;
+﻿using DemoLicense;
 using QLicense;
-using DemoLicense;
+using System;
+using System.IO;
+using System.Reflection;
+using System.Windows.Forms;
 
 namespace DemoWinFormApp
 {

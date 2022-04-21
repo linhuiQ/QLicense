@@ -1,10 +1,10 @@
-﻿using System;
-using System.Windows.Forms;
-using System.IO;
-using System.Security;
-using System.Reflection;
+﻿using DemoLicense;
 using QLicense;
-using DemoLicense;
+using System;
+using System.IO;
+using System.Reflection;
+using System.Security;
+using System.Windows.Forms;
 
 namespace DemoActivationTool
 {
@@ -17,10 +17,16 @@ namespace DemoActivationTool
         {
             InitializeComponent();
 
-            _certPwd.AppendChar('d');
-            _certPwd.AppendChar('e');
-            _certPwd.AppendChar('m');
-            _certPwd.AppendChar('o');
+            _certPwd.AppendChar('l');
+            _certPwd.AppendChar('i');
+            _certPwd.AppendChar('n');
+            _certPwd.AppendChar('h');
+            _certPwd.AppendChar('u');
+            _certPwd.AppendChar('i');
+            _certPwd.AppendChar('1');
+            _certPwd.AppendChar('9');
+            _certPwd.AppendChar('9');
+            _certPwd.AppendChar('1');
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -29,6 +35,8 @@ namespace DemoActivationTool
             Assembly _assembly = Assembly.GetExecutingAssembly();
             using (MemoryStream _mem = new MemoryStream())
             {
+
+                var l = _assembly.GetManifestResourceNames();
                 _assembly.GetManifestResourceStream("DemoActivationTool.LicenseSign.pfx").CopyTo(_mem);
 
                 _certPubicKeyData = _mem.ToArray();
@@ -39,7 +47,7 @@ namespace DemoActivationTool
             licSettings.CertificatePassword = _certPwd;
 
             //Initialize a new license object
-            licSettings.License = new MyLicense(); 
+            licSettings.License = new MyLicense();
         }
 
         private void licSettings_OnLicenseGenerated(object sender, QLicense.Windows.Controls.LicenseGeneratedEventArgs e)
